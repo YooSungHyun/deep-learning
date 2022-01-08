@@ -268,7 +268,7 @@ class BertModel(object):
         
         '<CLS>'는, 모든 train set에 무조건 존재하며, 모든 단어 데이터를 최소 1회는 마주함.
           => Train Data Set에 귀속적이지 않음.
-        또한 무조건 0번째 array 값이므로, 정보량을 가질 것이 없으며, 자기 자신과의 attention 값이 높아도, 예측에선 사용되지 않은 값임.
+        또한 무조건 0번째 array 값이므로 다루기 쉽고, 자기 자신과의 attention 값이 높아도, 예측에선 사용되지 않은 값임.
           => 위치나, 등장에 따라 정보량이 가중되지 않는, 가장 객관적인 값
         '''
         first_token_tensor = tf.squeeze(self.sequence_output[:, 0:1, :], axis=1)
