@@ -26,3 +26,7 @@ BERT의 모델을 실제로 건들여놨기 때문에, 파일명이 HuggingFace�
 Data는 개인적인 내용을 담고있어, 제외해놓았으므로, 소스 중간의 주석을 확인하시어, 각자만의 데이터로 한번 구성해보시기 바랍니다. <br />
 salt_bert 폴더가 있어야 정상 동작합니다. <br />
 실제로 작성한 소스에서 일부를 지워가며 작업하다보니, 중간에 오류나는 포인트가 있을 지 모르겠습니다. 오류가 난다면 issue에 올려주세요. <br />
+vocab.list는 직접 만드셔야합니다! <br />
+있는 vocab.list로, create_pretraining_data를 진행하고, run_pretraining을 진행 : **create_data_and_pretrain.ipynb** <br />
+fine-tuning을 진행합니다 : **fine-tuning.ipynb** <br />
+huggingface_from_pretraining의 BertForTimeSeriesClassification 부분이 사실상 핵심이므로, 이 부분만 참고하시는게 더 도움이 되실 분들도 있을지 모르겠습니다. <br />
