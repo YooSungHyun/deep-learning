@@ -29,4 +29,4 @@ salt_bert 폴더가 있어야 정상 동작합니다. <br />
 vocab.list는 직접 만드셔야합니다! <br />
 있는 vocab.list로, create_pretraining_data를 진행하고, run_pretraining을 진행 : **create_data_and_pretrain.ipynb** <br />
 fine-tuning을 진행합니다 : **fine-tuning.ipynb** <br />
-huggingface_from_pretraining의 BertForTimeSeriesClassification 부분이 사실상 핵심이므로, 이 부분만 참고하시는게 더 도움이 되실 분들도 있을지 모르겠습니다. <br />
+**huggingface_from_pretraining의 BertForTimeSeriesClassification 부분이 사실상 핵심**이므로, 이 부분만 참고하시는게 더 도움이 되실 분들도 있을지 모르겠습니다. <br />
