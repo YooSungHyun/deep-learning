@@ -15,7 +15,9 @@ data_preprocess.ipynb를 돌리기 위해서는, **konlpy와 mecab, mecab-ko, me
 입력으로 들어갈 vocab.list는 각자 생성해주신걸 사용해주시고, input은 Jupyter기에 소스 내에 전부 하드코딩 해야합니다. <br />
 <br />
 ### 출처 <br />
-해당 소스는, https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=164 강의에서 사용되는 소스를 변형 및 추가하여 작성되었습니다.
+상기의 명시된 소스는, https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=164 강의에서 사용되는 소스를 변형 및 추가하여 작성되었습니다.
+<br />
+<br />
 <br />
 ### time_schedule_bert <br />
 [BERT로 시계열 데이터 분류 Task는 할 수 있을까? (1 - 근무 시간표 예측?)](https://shyu0522.tistory.com/87) <br />
