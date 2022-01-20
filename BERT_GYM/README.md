@@ -16,3 +16,11 @@ data_preprocess.ipynb를 돌리기 위해서는, **konlpy와 mecab, mecab-ko, me
 <br />
 ### 출처 <br />
 해당 소스는, https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=164 강의에서 사용되는 소스를 변형 및 추가하여 작성되었습니다.
+<br />
+### time_schedule_bert <br />
+[BERT로 시계열 데이터 분류 Task는 할 수 있을까? (1 - 근무 시간표 예측?)](https://shyu0522.tistory.com/87) <br />
+에 대한 소스입니다. <br />
+BERT의 모델을 실제로 건들여놨기 때문에, 파일명이 HuggingFace와 동일하다고 해서 무지성으로 사용하시면 안될 수 있습니다. <br />
+Data는 개인적인 내용을 담고있어, 제외해놓았으므로, 소스 중간의 주석을 확인하시어, 각자만의 데이터로 한번 구성해보시기 바랍니다. <br />
+salt_bert 폴더가 있어야 정상 동작합니다. <br />
+실제로 작성한 소스에서 일부를 지워가며 작업하다보니, 중간에 오류나는 포인트가 있을 지 모르겠습니다. 오류가 난다면 issue에 올려주세요. <br />
