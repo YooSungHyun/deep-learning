@@ -1,0 +1,1 @@
+python train.py --data_path "./output.json" --cuda --emsize 300 --nhid 300 --nfc 300 --dropout 0.5 --attention-unit 350 --epochs 10 --lr 0.001 --clip 0.5 --dictionary "./vocab.json" --save "models/model-medium.pt" --batch-size 50 --class-number 5 --optimizer Adam --attention-hops 4 --penalization-coeff 1.0 --log-interval 100
