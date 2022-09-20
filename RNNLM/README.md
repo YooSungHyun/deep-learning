@@ -1,8 +1,8 @@
 # Language Modeling using RNN and Transformer
 
 본 예제는 Pytorch의 Example을 개량하여 작성되었습니다.</br>
-https://github.com/pytorch/examples/tree/main/word_language_model
-https://arxiv.org/abs/2203.03583
+https://github.com/pytorch/examples/tree/main/word_language_model</br>
+https://arxiv.org/abs/2203.03583</br>
 
 LSTM-LM만 Test 완료되었습니다.</br>
 Data는 vocab, txt파일이 필요한데, 해당 파일은 직접 만드셔야 합니다. (example에서도 data소스는 제공되지 않습니다.)</br>
